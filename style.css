@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.div1{
+position: relative;
+width: 100%;
+height: 100%;
+background: #E0E0E0;
+}
+
+.div2{
+position: absolute;
+width: 100%;
+height: 116px;
+left: 0px;
+top: 0px;
+background: #104019;
+}
+
+.Wname{
+position: absolute;
+width: auto;
+height: 44px;
+left: 102px;
+top: 36px;
+color: white;
+font-size: 36px;
+}
+
+.div4{
+position: absolute;
+width: 598px;
+height: 271px;
+left: 170px;
+top: 180px;
+background: #D9D9D9;
+border: 1px solid #104019;
+}
+
+.div5{
+position: absolute;
+width: 598px;
+height: 271px;
+left: 790px;
+top: 178px;
+border: 1px solid #000000;
+}
+img{
+    width: 598px;
+    height: 271px;
+}
+.div7{
+position: absolute;
+width: 200px;
+height: 100px;
+left: 200px;
+top: 225px;
+font-family: 'Inter';
+font-style: normal;
+
+font-size: 12px;
+line-height: 20px;
+color: #000000;
+}
+
+.div8{
+position: absolute;
+width: 450px;
+height: 24px;
+left: 200px;
+top: 190px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700px;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+
+.div9{
+position: absolute;
+width: 554px;
+height: 207px;
+left: 200px;
+top: 220px;
+font-family: 'Inter';
+font-style: normal;
+font-size: 12px;
+line-height: 20px;
+color: #000000;
+}
+
+
+@media only screen and (min-width: 520px) and (max-width: 1180px) {
+    /* Styles for iPad Air 5 in both orientations */
+    .div2{
+        height: 100px;
+        
+    }
+   
+    .div4{
+        position: absolute;
+        left: 30px;
+        top: 120px;
+        width: 400px;
+        height: 320px;
+    }
+    .div5{
+        width: 340px;
+        height: 320px;
+        position: absolute;
+        left: 450px;
+        top: 120px;
+    }
+    .div6{
+        position: absolute;
+        left: 50px;
+        font-size: 15px;
+    }
+    .div7{
+        position: absolute;
+        left: 50px;
+    }
+    .div8{
+        position: absolute;
+        left: 50px;
+        top: 125px;
+        font-size: 15px;
+
+    }
+    .div9{
+        position: absolute;
+        left: 50px;
+        top: 150px;
+        width: 350px;
+        
+    }
+    .Wname{
+        font-size: 30px;
+        position: absolute;
+        left: 30px;
+    }
+    img{
+        width: 340px;
+        height: 320px;
+    }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 519px) {
+    /* Styles for iPad Air 5 in both orientations */
+    .div2{
+        height: 70px;
+        position: absolute;
+    }
+    .div3{
+        position: absolute;
+        left: 10px;
+        top: 85px;
+        width: 455px;
+    }
+    .div4{
+        position: absolute;
+        left: 10px;
+        top: 100px;
+        width: 448px;
+        height: 320px;
+    }
+    .div5{
+        position: absolute;
+        top: 9px;
+        left: 408px;
+        width: 50px;
+        height: 50px;
+    }
+    .div6{
+        position: absolute;
+        left: 50px;
+        top: 90px;
+        font-size: 15px;
+        width: auto;
+    }
+    .div7{
+        position: absolute;
+        left: 30px;
+        top: 115px;
+        width: 330px;
+    }
+    .div8{
+        width: auto;
+        position: absolute;
+        left: 30px;
+        top: 110px;
+        font-size: 15px;
+    }
+    .div9{
+        position: absolute;
+        left: 30px;
+        top: 140px;
+        width: 420px;
+        
+    }
+    .Wname{
+        font-size: 15px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        width: auto;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 432px) and (max-width: 469px) {
+    /* Styles for iPad Air 5 in both orientations */
+    .div2{
+        height: 70px;
+        
+        
+    }
+    .div3{
+        position: absolute;
+        left: 15px;
+        top: 85px;
+        width: 400px;
+    }
+    
+    .div4{
+        position: absolute;
+        left: 15px;
+        top: 85px;
+        width: 400px;
+        height: 320px;
+    }
+    .div5{
+        position: absolute;
+        top: 9px;
+        left: 365px;
+        width: 50px;
+        height: 50px;
+    }
+    .div6{
+        position: absolute;
+        left: 40px;
+        top: 90px;
+        font-size: 15px;
+        width: auto;
+    }
+    .div7{
+        position: absolute;
+        left: 40px;
+        top: 115px;
+        width: 330px;
+    }
+    .div8{
+        position: absolute;
+        left: 40px;
+        top: 90px;
+        font-size: 15px;
+        width: auto;
+    }
+    .div9{
+        position: absolute;
+        left: 40px;
+        top: 120px;
+        width: 330px;
+        
+    }
+    .Wname{
+        font-size: 15px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        width: 250px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 351px) and (max-width: 431px) {
+    
+    .div1{
+        width: 100%;
+    }
+    .div2{
+        height: 70px;
+        
+    }
+    .div3{
+        position: absolute;
+        top: 85px;
+        left: 10px;
+        width: 340px;
+    }
+    .div4{
+        position: absolute;
+        left: 10px;
+        top: 90px;
+        width: 370px;
+        height: 370px;
+    }
+    .div5{
+        position: absolute;
+        top: 9px;
+        left: 330px;
+        width: 50px;
+        height: 50px;
+    }
+    .div6{
+        position: absolute;
+        left: 30px;
+        top: 90px;
+        font-size: 15px;
+    }
+    .div7{
+        position: absolute;
+        left: 30px;
+        top: 115px;
+        width: 330px;
+    }
+    .div8{
+        width: 330px;
+        position: absolute;
+        left: 30px;
+        top: 90px;
+        font-size: 13px;
+        
+    }
+    .div9{
+        position: absolute;
+        left: 30px;
+        top: 120px;
+        width: 270px;
+        
+    }
+    .Wname{
+        font-size: 15px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        width: auto;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 270px) and (max-width: 350px) {
+    .div1{
+        width: 100%;
+    }
+    .div2{
+        height: 70px;
+        
+    }
+   
+    .div4{
+        position: absolute;
+        left: 10px;
+        top: 70px;
+        width: 300px;
+        height: 375px;
+    }
+    .div5{
+        position: absolute;
+        top: 15px;
+        left: 260px;
+        width: 35px;
+        height: 35px;
+    }
+    .div7{
+        position: absolute;
+        left: 30px;
+        top: 115px;
+        width: 200px;
+    }
+    .div8{
+        width: auto;
+        position: absolute;
+        left: 30px;
+        top: 270px;
+        font-size: 10px;
+    }
+    .div9{
+        position: absolute;
+        left: 30px;
+        top: 295px;
+        width: 230px;
+        
+    }
+    .Wname{
+        font-size: 12px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        width: auto;
+    }
+    img{
+        width: 35px;
+        height: 35px;
+    }
+}
